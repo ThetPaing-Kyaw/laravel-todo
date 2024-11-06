@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Deploy To Server
-        uses: appleboy/ssh-action@1.1.0
+        uses: appleboy/ssh-action@v1.1.0
         with: 
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
