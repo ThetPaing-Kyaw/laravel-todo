@@ -14,5 +14,5 @@ jobs:
         with: 
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSHKEY }}
           script: "cd /home/ubuntu/devops && ./deploy.sh"
